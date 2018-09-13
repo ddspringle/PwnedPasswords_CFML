@@ -18,7 +18,7 @@ The checkPassword function returns a struct with the following keys:
     found: true if the password is found, false otherwise
     prevalence: the number of times this password shows up in the list
 
-**NOTE**: A password that shows up even **once** in the list represents a threat. However, we return the prevalence of the password so you can guage if you want to allow usage of password with a prevalence below some threshold you determine. Passwords with a lower prevalence may be less likely to be used in brute force attacks, but they remain a threat nontheless.
+**NOTE**: A password that shows up even **once** in the list represents a threat. However, we return the prevalence of the password so you can guage if you want to allow usage of password with a prevalence below some threshold you determine. Passwords with a lower prevalence may be less likely to be used in brute force attacks, but they remain a threat nonetheless.
 
 ## Compatibility
 
